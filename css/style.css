@@ -65,18 +65,25 @@ article{
 .small-card{
     height: 200px;
 }
+
+/* seconda sezione */
+
 .violette{
     background-color: #9792e4;
 }
 .part{
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: 1px solid yellow;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 .second-part{
     background-color: white;
     border-radius: 2rem;
+}
+.part-img{
+    height: 50%;
+    border: 1px solid red;
 }
  /* queries 768px */
 
@@ -87,7 +94,6 @@ article{
   } 
   .principal-row{
     height: 100%;
-    background-color: yellow;
 }
   .big-card{
     width: 65%;
