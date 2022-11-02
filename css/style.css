@@ -5,3 +5,36 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  header{
+    height: 70px;
+    width: 100%;
+    background-color: #0084fd;
+  }
+
+
+  /* ultilities */
+  .flex{
+    display: flex;
+}
+
+  .container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+
+
+.header-nav{
+    justify-content: center;
+    align-items: center;
+}
+  
+.header-logo,
+nav>.menu{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+}
+
