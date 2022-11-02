@@ -10,6 +10,7 @@
     height: 70px;
     width: 100%;
     background-color: #0084fd;
+    margin-bottom: 3rem;
   }
 
 
@@ -38,3 +39,30 @@ nav>.menu{
     border: 1px solid red;
 }
 
+.row{
+    height: 1100px;
+    background-color: yellow;
+}
+article{
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    background-color: pink;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+}
+.big-card{
+    height: 300px;
+}
+.small-card{
+    height: 200px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    article{
+        flex-direction: row;
+    }
+}
