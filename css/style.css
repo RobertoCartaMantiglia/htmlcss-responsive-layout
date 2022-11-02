@@ -39,8 +39,8 @@ nav>.menu{
     border: 1px solid red;
 }
 
-.row{
-    height: 1100px;
+.principal-row{
+    height: 1200px;
     background-color: yellow;
 }
 article{
@@ -55,14 +55,35 @@ article{
 .big-card{
     height: 300px;
 }
+.card-text{
+    height: 50%;
+    background-color: bisque;
+}
+.card-img{
+    height: 50%;
+    background-color: aqua;
+}
 .small-card{
     height: 200px;
 }
 
 
-
 @media screen and (min-width: 768px) {
-    article{
-        flex-direction: row;
-    }
+  .row{
+    display: flex;
+    justify-content: space-between;
+  } 
+  .principal-row{
+    height: 100%;
+    background-color: yellow;
+}
+  .big-card{
+    width: 65%;
+    height: 400px;
+    margin-right: 10px;
+  }
+  .small-card{
+    height: 400px;
+    width: 32%;
+  }
 }
