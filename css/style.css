@@ -108,7 +108,7 @@ margin-top: 1rem;
 }
 /* seconda sezione */
 
-.violette{
+.violette-bg{
     background-color: #9792e4;
 }
 .part{
@@ -136,12 +136,13 @@ margin-top: 1rem;
 /* terza-sezione */
 
 .introduction{
-    height: 200px;
-    border: 1px solid black;
-    background-color: chartreuse;
+    padding-top: 1rem;
     margin: 1.5rem 0 2rem 0;
+    text-align: center;
 }
-
+.violette{
+  color: #9792e4;
+}
 .testimonial{
     height: 400px;
     width: 100%;
