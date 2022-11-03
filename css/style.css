@@ -6,27 +6,41 @@
     box-sizing: border-box;
   }
 
-  header{
-    height: 70px;
-    width: 100%;
-    background-color: #0084fd;
-    margin-bottom: 3rem;
-  }
+  /* root */
 
-
-  /* ultilities */
-  .flex{
-    display: flex;
+:root{
+  --main-color-section:#0084fd;
+  --bg-color-first-section: #b5ddff;
 }
 
-  .container{
-    width: 100%;
-    padding: 2rem;
-  }
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #0084fd;
+  margin-bottom: 3rem;
+}
+
+
+/* ultilities */
+.flex{
+  display: flex;
+}
+
+
+
+.container{
+  width: 100%;
+  padding: 2rem;
+}
 
 .header-nav{
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
   
 nav>.menu{
@@ -43,21 +57,39 @@ article{
 }
 .card{
     width: 100%;
-    background-color: pink;
+    background-color: var(--bg-color-first-section);
     border-radius: 1rem;
     margin-bottom: 20px;
 }
 .big-card{
-    height: 300px;
+    height: 100%;
+    margin-bottom: 4rem;
+    background-color: var(--bg-color-first-section);
 }
 .card-text{
-    height: 50%;
-    background-color: rgb(224, 128, 9);
-
+    padding: 2.8rem;
 }
+.card-text p{
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+button{
+font-size: 1.3rem;
+padding: 0.3rem 2.5rem;
+border-radius: 3rem;
+border: none;
+background-color: var(--main-color-section);
+color: white;
+margin-top: 1rem;
+}
+
 .card-img{
-    height: 50%;
-    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+.card-img img{
+  height: 300px;
+  
 }
 .small-card{
     height: 200px;
@@ -147,6 +179,9 @@ article{
   .container{
     width: 70%;
     margin: 0 auto;
+  }
+  .card-text{
+    width: 50%;
   }
   .flex-end{
     display: flex;
