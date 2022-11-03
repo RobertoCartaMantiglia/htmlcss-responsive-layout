@@ -32,7 +32,9 @@
 nav>.menu{
     color: white;
 }
-
+.fa-solid, .fa-bars{
+  font-size: 1.5rem;
+}
 .principal-row{
     margin-bottom: 3rem;
 }
@@ -154,7 +156,5 @@ article{
   .part{
     width: 50%;    
 }
-.second-part{
-  
-}
+
 }
