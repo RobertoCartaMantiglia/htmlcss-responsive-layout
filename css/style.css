@@ -56,7 +56,6 @@ article{
     flex-direction: column;
 }
 .card{
-    width: 100%;
     background-color: var(--bg-color-first-section);
     border-radius: 1rem;
     margin-bottom: 20px;
@@ -211,5 +210,8 @@ margin-top: 1rem;
     justify-content: flex-end;
     text-align: center;
     margin-top: 2rem;
+  }
+  .card-flex{
+    display: flex;
   }
 }
