@@ -223,8 +223,9 @@ margin-top: 1rem;
     align-items: flex-end;
     justify-content: flex-end;
   }
-  .second-part {
-    height: 40%;
-    
+  .part-img{
+    width: 70%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
   }
 }
