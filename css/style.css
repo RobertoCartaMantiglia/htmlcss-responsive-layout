@@ -20,23 +20,18 @@
 }
 
   .container{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    border: 1px solid black;
+    width: 100%;
+    padding: 2rem;
   }
 
 
 .header-nav{
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
   
-.header-logo,
 nav>.menu{
-    width: 50%;
-    height: 100%;
-    border: 1px solid red;
+    color: white;
 }
 
 .principal-row{
