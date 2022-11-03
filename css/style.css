@@ -24,7 +24,6 @@
     padding: 2rem;
   }
 
-
 .header-nav{
     justify-content: space-between;
     align-items: center;
@@ -39,7 +38,6 @@ nav>.menu{
 }
 article{
     flex-direction: column;
-    justify-content: space-between;
 }
 .card{
     width: 100%;
@@ -80,7 +78,6 @@ article{
 }
 .part-img{
     height: 50%;
-    border: 1px solid red;
 }
 
 /* terza-sezione */
@@ -126,4 +123,38 @@ article{
     height: 400px;
     width: 32%;
   }
+  .testimonial{
+    display: flex;
+    height: 300px;
+  }
+  .testimonial-img,
+  .testimonial-text{
+    height: 100%;
+  }
+  .testimonial-img{
+    width: 40%;
+  }
+}
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+  .container{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .part{
+    width: 50%;    
+}
+.second-part{
+  
+}
 }
