@@ -144,19 +144,27 @@ margin-top: 1rem;
   color: #9792e4;
 }
 .testimonial{
-    height: 400px;
-    width: 100%;
     margin: 1rem 0; 
     background-color: #9792e4;  
     border-radius: 3rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
 }
 .testimonial-text,
 .testimonial-img{
     height: 50%;
     width: 100%;
-    border: 1px solid pink;
 }
-
+.testimonial-text h3{
+  margin: 1.5rem 0
+}
+.testimonial-img img{
+  height: 60%;
+  width: 60%;
+  margin-top: 3rem;
+  border-radius: 50%;
+}
 
  /* queries 768px */
 
