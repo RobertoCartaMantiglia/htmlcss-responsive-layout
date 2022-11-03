@@ -30,7 +30,9 @@ header{
 .flex{
   display: flex;
 }
-
+.white{
+  color: white;
+}
 
 
 .container{
@@ -111,8 +113,6 @@ margin-top: 1rem;
 }
 .part{
     width: 100%;
-    height: 500px;
-    border: 1px solid yellow;
     margin-bottom: 3rem;
 }
 .second-part{
@@ -121,6 +121,15 @@ margin-top: 1rem;
 }
 .part-img{
     height: 50%;
+}
+.part-img img{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.title{
+  font-size: 4rem;
+  margin: 2rem 0;
 }
 
 /* terza-sezione */
