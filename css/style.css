@@ -145,17 +145,20 @@ margin-top: 1rem;
     display: flex;
     justify-content: space-between;
   } 
-  .principal-row{
-    height: 100%;
-}
+
   .big-card{
-    width: 65%;
-    height: 400px;
+    width: calc((100% / 3) *2);
+    border-radius: 2rem;
     margin-right: 10px;
+  }
+  .card-img{
+    text-align: start;
+    padding-left: 2rem;
   }
   .small-card{
     height: 400px;
-    width: 32%;
+    width: calc(100% / 3);
+    margin: 0.5rem;
   }
   .testimonial{
     display: flex;
@@ -177,19 +180,28 @@ margin-top: 1rem;
 
 @media screen and (min-width: 992px) {
   .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
   .card-text{
-    width: 50%;
+    width: 70%;
   }
   .flex-end{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
   }
   .part{
     width: 50%;    
 }
-
+  .big-card{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-img{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+  }
 }
