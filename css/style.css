@@ -51,6 +51,15 @@ nav>.menu{
 .fa-solid, .fa-bars{
   font-size: 1.5rem;
 }
+ul{
+  list-style-type: none;
+  display: none;
+}
+.items li{
+  color: white;
+
+}
+/* prima sezione */
 .principal-row{
     margin-bottom: 3rem;
 }
@@ -75,7 +84,7 @@ article{
   margin: 1.5rem 0 1.5rem 0;
 }
 
-button{
+.button{
 font-size: 1.3rem;
 padding: 0.3rem 2.5rem;
 border-radius: 3rem;
@@ -103,7 +112,8 @@ margin-top: 1rem;
   margin: 2rem 0;
 }
 .small-card h2,
-.small-card i{
+.small-card i,
+.big-card h2{
   color: var(--main-color-section);
 }
 /* seconda sezione */
@@ -209,6 +219,21 @@ margin-top: 1rem;
   .container{
     width: 70%;
     margin: 0 auto;
+  }
+  span>.fa-solid, .fa-bars{
+    display: none;
+  }
+  ul{
+    display: inline;
+  }
+  .items li{
+    display: inline-block;
+    margin: 0 0.4rem 0 0.4rem;
+  }
+  .white-button{
+    padding: 0.4rem 1rem;
+    border-radius: 3rem;
+    border: none;
   }
   .card-text{
     width: 80%;
